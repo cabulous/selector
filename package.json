@@ -1,0 +1,51 @@
+{
+  "name": "template-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve --config webpack.dev.js",
+    "start:float": "webpack serve --config webpack.dev.float.js",
+    "build": "webpack --config webpack.prod.js",
+    "build:staging": "webpack --config webpack.staging.js",
+    "build:debug": "webpack --config webpack.prodDebug.js"
+  },
+  "keywords": [],
+  "author": "Carson",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "babel-jest": "^27.4.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.20.2",
+    "css-loader": "^6.5.1",
+    "glob": "^7.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.5",
+    "loadjs": "^4.2.0",
+    "lodash": "^4.17.21",
+    "sass-loader": "^12.4.0",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.67.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.16.11",
+    "@jest/globals": "^27.4.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "http-proxy-middleware": "^2.0.1",
+    "node-sass": "^7.0.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
